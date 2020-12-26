@@ -1,0 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: #a8d8ea;
+    height: 50px;
+    width: auto;
+}
