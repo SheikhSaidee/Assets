@@ -8,22 +8,33 @@
     width: auto;
     text-align: right;
     padding-right: 10px;
+    text-decoration: none;
 }
 .nav-bar{
     background-color: #ffe0d8;
     height: 60px;
     width: auto;
 }
+.nav-bar>ul{
+    padding-top: 20px;
+  
+}
 .nav-bar>ul>li{
     list-style-type: none;
     display: inline;
     font-size: 20px;
+    padding-right: 20px;
+   
 }
 .nav-bar>ul>li>a{
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
-    background-color: #dddddd;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-color: green;
+    border-radius: 5px;
+    padding-right: 30px;
 }
 .main{
     background-color: #ff9b93;
@@ -70,15 +81,10 @@
 .aside>h2{
     text-align: center;
 }
-
-
-
-
-
-
-
 .fotter{
     background-color: #41584b;
-    height: 100px;
+    height: 30px;
     width: auto;
+    text-align: center;
+    padding-top: 20px;
 }
